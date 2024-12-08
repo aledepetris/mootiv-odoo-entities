@@ -1,0 +1,9 @@
+<record id="view_bmi_result_tree" model="ir.ui.view">
+    <field name="name">mootiv.bmi_result.tree</field>
+    <field name="model">mootiv.bmi_result</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="result"/>
+        </tree>
+    </field>
+</record>

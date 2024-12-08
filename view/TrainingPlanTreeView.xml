@@ -1,0 +1,10 @@
+<record id="view_training_plan_tree" model="ir.ui.view">
+    <field name="name">mootiv.training_plan.tree</field>
+    <field name="model">mootiv.training_plan</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="student_id"/>
+            <field name="training_cycles_ids"/>
+        </tree>
+    </field>
+</record>

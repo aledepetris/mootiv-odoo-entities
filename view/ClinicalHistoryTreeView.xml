@@ -1,0 +1,10 @@
+<record id="view_clinical_history_tree" model="ir.ui.view">
+    <field name="name">mootiv.clinical_history.tree</field>
+    <field name="model">mootiv.clinical_history</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="id"/>
+            <field name="condition_ids" widget="many2many_tags"/>
+        </tree>
+    </field>
+</record>

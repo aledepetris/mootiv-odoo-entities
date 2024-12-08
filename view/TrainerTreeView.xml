@@ -1,0 +1,15 @@
+<record id="view_trainer_tree" model="ir.ui.view">
+    <field name="name">mootiv.trainer.tree</field>
+    <field name="model">mootiv.trainer</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="last_name"/>
+            <field name="email"/>
+            <field name="telephone"/>
+            <field name="birthdate"/>
+            <field name="age"/>
+            <field name="active"/>
+        </tree>
+    </field>
+</record>

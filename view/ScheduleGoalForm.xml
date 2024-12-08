@@ -1,0 +1,15 @@
+<record id="view_schedule_goal_form" model="ir.ui.view">
+    <field name="name">mootiv.schedule_goal.form</field>
+    <field name="model">mootiv.schedule_goal</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="day_of_training"/>
+                    <field name="training_types_ids" widget="many2many_tags"/>
+                    <field name="goal_id" readonly="1"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

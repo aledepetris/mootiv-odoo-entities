@@ -1,0 +1,20 @@
+<record id="view_person_form" model="ir.ui.view">
+    <field name="name">mootiv.person.form</field>
+    <field name="model">mootiv.person</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="dni"/>
+                    <field name="name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                    <field name="telephone"/>
+                    <field name="birthdate"/>
+                    <field name="active"/>
+                    <field name="age" readonly="1"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

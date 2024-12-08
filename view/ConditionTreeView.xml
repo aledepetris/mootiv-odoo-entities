@@ -1,0 +1,13 @@
+<record id="view_condition_tree" model="ir.ui.view">
+    <field name="name">mootiv.condition.tree</field>
+    <field name="model">mootiv.condition</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="affection_id"/>
+            <field name="diagnosis_date"/>
+            <field name="severity"/>
+            <field name="current_status"/>
+            <field name="notes"/>
+        </tree>
+    </field>
+</record>

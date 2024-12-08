@@ -1,0 +1,10 @@
+<record id="view_schedule_goal_tree" model="ir.ui.view">
+    <field name="name">mootiv.schedule_goal.tree</field>
+    <field name="model">mootiv.schedule_goal</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="day_of_training"/>
+            <field name="training_types_ids" widget="many2many_tags"/>
+        </tree>
+    </field>
+</record>

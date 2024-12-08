@@ -1,0 +1,13 @@
+<record id="view_cycle_status_form" model="ir.ui.view">
+    <field name="name">mootiv.cycle_status.form</field>
+    <field name="model">mootiv.cycle_status</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

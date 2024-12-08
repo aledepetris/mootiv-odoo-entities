@@ -1,0 +1,20 @@
+<record id="view_muscle_group_form" model="ir.ui.view">
+    <field name="name">mootiv.muscle.group.form</field>
+    <field name="model">mootiv.muscle</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="type" readonly="1"/>
+                </group>
+                <group string="Muscles">
+                    <field name="muscles_ids" widget="many2many_tags"/>
+                </group>
+                <group string="Exercises">
+                    <field name="exercises_ids" widget="many2many_tags"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

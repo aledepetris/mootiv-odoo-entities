@@ -1,0 +1,50 @@
+<record id="view_student_form" model="ir.ui.view">
+    <field name="name">mootiv.student.form</field>
+    <field name="model">mootiv.student</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="dni"/>
+                    <field name="name"/>
+                    <field name="last_name"/>
+                    <field name="email"/>
+                    <field name="telephone"/>
+                    <field name="birthdate"/>
+                    <field name="start_date"/>
+                    <field name="active"/>
+                </group>
+                <group>
+                    <field name="trainer_id"/>
+                    <field name="training_plan_id"/>
+                    <field name="clinical_history_id"/>
+                </group>
+                <notebook>
+                    <page string="Measures">
+                        <field name="measure_ids">
+                            <tree editable="bottom">
+                                <field name="date"/>
+                                <field name="height"/>
+                                <field name="weight"/>
+                                <field name="shoulder"/>
+                                <field name="chest"/>
+                                <field name="arm"/>
+                                <field name="waist"/>
+                                <field name="hip"/>
+                                <field name="leg"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page string="Training Places">
+                        <field name="training_place_ids">
+                            <tree editable="bottom">
+                                <field name="name"/>
+                                <field name="equipments"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>
+    </field>
+</record>

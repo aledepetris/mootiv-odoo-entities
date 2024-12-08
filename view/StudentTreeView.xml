@@ -1,0 +1,17 @@
+<record id="view_student_tree" model="ir.ui.view">
+    <field name="name">mootiv.student.tree</field>
+    <field name="model">mootiv.student</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="dni"/>
+            <field name="name"/>
+            <field name="last_name"/>
+            <field name="email"/>
+            <field name="telephone"/>
+            <field name="birthdate"/>
+            <field name="start_date"/>
+            <field name="active"/>
+            <field name="trainer_id"/>
+        </tree>
+    </field>
+</record>

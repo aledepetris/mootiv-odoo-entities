@@ -1,0 +1,10 @@
+<record id="view_training_week_tree" model="ir.ui.view">
+    <field name="name">mootiv.training_week.tree</field>
+    <field name="model">mootiv.training_week</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="status"/>
+        </tree>
+    </field>
+</record>

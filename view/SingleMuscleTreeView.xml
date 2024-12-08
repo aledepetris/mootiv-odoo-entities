@@ -1,0 +1,11 @@
+<record id="view_single_muscle_tree" model="ir.ui.view">
+    <field name="name">mootiv.single.muscle.tree</field>
+    <field name="model">mootiv.muscle</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="type"/>
+            <field name="exercises_ids" widget="many2many_tags"/>
+        </tree>
+    </field>
+</record>

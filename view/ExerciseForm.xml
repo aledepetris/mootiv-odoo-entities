@@ -1,0 +1,21 @@
+<record id="view_exercise_form" model="ir.ui.view">
+    <field name="name">mootiv.exercise.form</field>
+    <field name="model">mootiv.exercise</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="is_for_time"/>
+                    <field name="is_total"/>
+                </group>
+                <group string="Relations">
+                    <field name="muscles_ids" widget="many2many_tags"/>
+                    <field name="exercise_types_ids" widget="many2many_tags"/>
+                    <field name="equipment_ids" widget="many2many_tags"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

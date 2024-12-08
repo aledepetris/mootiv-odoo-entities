@@ -1,0 +1,25 @@
+<record id="view_training_week_form" model="ir.ui.view">
+    <field name="name">mootiv.training_week.form</field>
+    <field name="model">mootiv.training_week</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="start_date"/>
+                    <field name="status"/>
+                    <field name="progress" readonly="1"/>
+                    <field name="is_completed" readonly="1"/>
+                    <field name="final_state" readonly="1"/>
+                </group>
+                <group string="Training Days">
+                    <field name="days_ids">
+                        <tree editable="bottom">
+                            <field name="finish_date"/>
+                            <field name="is_completed"/>
+                        </tree>
+                    </field>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

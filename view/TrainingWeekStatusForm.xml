@@ -1,0 +1,14 @@
+<record id="view_training_week_form" model="ir.ui.view">
+    <field name="name">mootiv.training_week.form</field>
+    <field name="model">mootiv.training_week</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="status"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

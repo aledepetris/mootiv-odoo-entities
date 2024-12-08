@@ -1,0 +1,9 @@
+<record id="view_condition_status_tree" model="ir.ui.view">
+    <field name="name">mootiv.condition_status.tree</field>
+    <field name="model">mootiv.condition_status</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="status"/>
+        </tree>
+    </field>
+</record>

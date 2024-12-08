@@ -1,0 +1,9 @@
+<record id="view_cycle_status_tree" model="ir.ui.view">
+    <field name="name">mootiv.cycle_status.tree</field>
+    <field name="model">mootiv.cycle_status</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+        </tree>
+    </field>
+</record>

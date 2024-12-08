@@ -1,0 +1,9 @@
+<record id="view_condition_severity_tree" model="ir.ui.view">
+    <field name="name">mootiv.condition_severity.tree</field>
+    <field name="model">mootiv.condition_severity</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="severity"/>
+        </tree>
+    </field>
+</record>

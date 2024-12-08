@@ -1,0 +1,13 @@
+<record id="view_exercise_routine_tree" model="ir.ui.view">
+    <field name="name">mootiv.exercise_routine.tree</field>
+    <field name="model">mootiv.exercise_routine</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="exercise_id"/>
+            <field name="sets"/>
+            <field name="repetitions"/>
+            <field name="weight"/>
+            <field name="rest"/>
+        </tree>
+    </field>
+</record>

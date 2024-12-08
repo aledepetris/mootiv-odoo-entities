@@ -1,0 +1,17 @@
+<record id="view_training_type_form" model="ir.ui.view">
+    <field name="name">mootiv.training_type.form</field>
+    <field name="model">mootiv.training_type</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="description"/>
+                </group>
+                <group string="Exercise Types">
+                    <field name="exercise_types_ids" widget="many2many_tags"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

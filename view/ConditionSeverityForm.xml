@@ -1,0 +1,13 @@
+<record id="view_condition_severity_form" model="ir.ui.view">
+    <field name="name">mootiv.condition_severity.form</field>
+    <field name="model">mootiv.condition_severity</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="severity"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

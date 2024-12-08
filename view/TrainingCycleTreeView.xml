@@ -1,0 +1,13 @@
+<record id="view_training_cycle_tree" model="ir.ui.view">
+    <field name="name">mootiv.training_cycle.tree</field>
+    <field name="model">mootiv.training_cycle</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="start_date"/>
+            <field name="status"/>
+            <field name="goal_id"/>
+            <field name="training_type_id"/>
+            <field name="number_of_weeks"/>
+        </tree>
+    </field>
+</record>

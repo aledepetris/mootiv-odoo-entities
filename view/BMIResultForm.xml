@@ -1,0 +1,13 @@
+<record id="view_bmi_result_form" model="ir.ui.view">
+    <field name="name">mootiv.bmi_result.form</field>
+    <field name="model">mootiv.bmi_result</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="result"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>

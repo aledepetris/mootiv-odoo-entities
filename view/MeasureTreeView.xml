@@ -1,0 +1,13 @@
+<record id="view_measure_tree" model="ir.ui.view">
+    <field name="name">mootiv.measure.tree</field>
+    <field name="model">mootiv.measure</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="date"/>
+            <field name="bmi"/>
+            <field name="bmi_category"/>
+            <field name="waist_to_hip_ratio"/>
+            <field name="waist_to_height_ratio"/>
+        </tree>
+    </field>
+</record>

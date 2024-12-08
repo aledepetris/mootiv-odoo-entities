@@ -1,0 +1,27 @@
+<record id="view_measure_form" model="ir.ui.view">
+    <field name="name">mootiv.measure.form</field>
+    <field name="model">mootiv.measure</field>
+    <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <field name="date"/>
+                    <field name="height"/>
+                    <field name="weight"/>
+                    <field name="shoulder"/>
+                    <field name="chest"/>
+                    <field name="arm"/>
+                    <field name="waist"/>
+                    <field name="hip"/>
+                    <field name="leg"/>
+                </group>
+                <group>
+                    <field name="bmi" readonly="1"/>
+                    <field name="bmi_category" readonly="1"/>
+                    <field name="waist_to_hip_ratio" readonly="1"/>
+                    <field name="waist_to_height_ratio" readonly="1"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
